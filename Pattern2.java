@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class Pattern1 {
+public class Pattern2 {
 
     public static void fun(int n){
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j<= i; j++) {
+                //for i =0, j value will be 0. for i =1, j will be 0,1 and so on
                 System.out.print("* ");
             }
             System.out.println();
